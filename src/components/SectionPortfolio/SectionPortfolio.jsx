@@ -1,8 +1,10 @@
 import React from 'react';
 import './SectionPortfolio.css'
-
+import Projet from '../Project/Projet';
+import JsonData from '../../datas/data.json'
 
 const SectionPortfolio = () => {
+    console.log(JsonData)
     return (
         <div>
             <section className="sectionPortfolio" id="ancre-portfolio">
@@ -14,13 +16,20 @@ const SectionPortfolio = () => {
                         <div className="corner-up-left"></div>
                         <div className="corner-up-right"></div>
                     </div>
-                    <div className="all-cards-portfolio">
-                        <div className="projects-container" id="projectsContainer"></div>
-                        <div className="modal" id="modal">
-                            <span className="close" id="closeModal">&times;</span>
-                            <div className="modal-content" id="modalContent"></div>
-                        </div>
-                    </div>
+                    {
+                        JsonData.map((projet, index)  => {
+                        return <Projet 
+                            key={index} 
+                            date={projet.date} 
+                            epreuves={projet.epreuves}
+                            imagePrincipale={projet.imagePrincipale}
+                            imagesSecondaires={projet.imagesSecondaires}
+                            mission={projet.mission}
+                            outils={projet.outils}
+                            titre={projet.titre}
+                        />
+                        })
+                    }
                     <div className="corner-bottom corner-bottom-portfolio">
                         <div className="corner-bottom-left"></div>
                         <div className="corner-bottom-right"></div>

@@ -1,0 +1,285 @@
+:root {
+    --black-color: #000B20;
+    --white-color: #ffff;
+    --base-color: #7F664A;
+    --twobase-color: #7C9CA2;
+    --threebase-color: #D3BDA1;
+    --fourbase-color: #F7F7F1;
+    --fivebase-color: #F3E2C9;
+    --sixbase-color: #121828;
+    --cardbase-color: #B0D2D6;
+    --cardbaseplus-color: #70979b;
+    --form-color: #7C9CA2;
+    
+}
+
+body {
+    background-color: var(--black-color);
+    width: 1440px;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 100Px;
+    font-family: "Raleway", sans-serif;
+    backdrop-filter: blur(30px);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 11px 11px 31px black;
+}
+
+
+h2 {
+    color: var(--sixbase-color);
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-size: 33px;
+    text-align: justify;
+}
+
+h3 {
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    text-align: -webkit-center;
+    color: white;
+    margin-left: 49%;
+    opacity: 0.8;
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+/* Card Portfolio start */
+
+.card {
+    position: relative;
+    width: 350px;
+    height: 250px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 30px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 0 10px var(--fivebase-color);
+    opacity: 0.9;
+}
+  
+.heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--twobase-color);
+}
+  
+.para {
+    text-align: center;
+    color: var(--twobase-color);
+    opacity: 0.7;
+    line-height: 1.4;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+  
+.card:hover .overlay {
+    opacity: 1;
+    pointer-events: auto;
+}
+  
+.card .card-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 600;
+    padding: 2% 2%;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+    background-color: var(--white-color);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 999;
+    border: none;
+    opacity: 0;
+    scale: 0;
+    transform-origin: 0 0;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+  
+.card:hover .card-btn {
+    opacity: 1;
+    scale: 1;
+}
+  
+.card .card-btn:hover {
+    box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.3);
+}
+  
+.card .card-btn:active {
+    scale: 0.95;
+}
+  
+.overlay::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+  
+.card:hover .overlay::after {
+    transform: translate(-50%, -50%) scale(2);
+}
+
+/* Card Portfolio end */
+
+/* modale projet start */
+
+.projects-container {
+    margin-top: 9%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+  }
+  
+  .project {
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .project img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styles pour le modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 1200px;
+    max-height: 80%;
+    overflow: auto;
+  }
+  
+  .close {
+    color: var(--base-color);
+    position: absolute;
+    z-index: 1;
+    top: 73px;
+    right: 135px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #aaa;
+    text-decoration: none;
+  }
+  
+
+.overlay-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.5); 
+    display: none;
+    pointer-events: none; 
+}
+  
+/* modale projet end */
+
+
+.div-img-text {
+    width: 100%;
+    height: 860px;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 4%;
+}
+
+.div-img-text img{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 10%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.titre-desc-modale {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 30Px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    border-radius: 15px;
+    background-color: var(--threebase-color);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titre-secondaire-modal{
+    font-size:16px;
+}
+
+.divTitle{
+    width: 100%;
+}
+
+.img-secondaire{
+    width: 100%;
+}

@@ -17,24 +17,24 @@ const SectionContact = () => {
                             <p id="heading">Fiche Contact</p>
                             <div className="div-nom-prenom">
                                 <div className="field field-ligne">
-                                    <label for="nom"></label>
-                                    <input autocomplete="off" placeholder="Nom" id="nom" className="input-field" type="text" />
+                                    <label htmlFor="nom"></label>
+                                    <input autoComplete="off" placeholder="Nom" id="nom" className="input-field" type="text" />
                             </div>
                             <div className="field field-ligne">
-                                    <label for="prenom"></label>
+                                    <label htmlFor="prenom"></label>
                                     <input placeholder="Prénom" id="prenom" className="input-field" type="text" />
                             </div>
                             </div>
                                 <div className="field">
-                                <label for="email"></label>
+                                <label htmlFor="email"></label>
                                 <input placeholder="Email" id="email" className="input-field" type="text" />
                             </div>
                                 <div className="field">
-                                <label for="sujet"></label>
+                                <label htmlFor="sujet"></label>
                                 <input placeholder="Sujet" id="sujet" className="input-field" type="text" />
                             </div>
                                 <div className="field">
-                                <label for="votre_message"></label>
+                                <label htmlFor="votre_message"></label>
                                 <textarea placeholder="Votre message" id="votre_message" className="input-field input-size"></textarea>
                             </div>
                             <div className="btn-form-contact">

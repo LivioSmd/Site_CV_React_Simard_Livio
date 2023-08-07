@@ -1,0 +1,133 @@
+:root {
+    --black-color: #000B20;
+    --white-color: #ffff;
+    --base-color: #7F664A;
+    --twobase-color: #7C9CA2;
+    --threebase-color: #D3BDA1;
+    --fourbase-color: #F7F7F1;
+    --fivebase-color: #F3E2C9;
+    --sixbase-color: #121828;
+    --cardbase-color: #B0D2D6;
+    --cardbaseplus-color: #70979b;
+    --form-color: #7C9CA2;
+    
+}
+
+body {
+    background-color: var(--black-color);
+    width: 1440px;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.LogoCv {
+    width: 87px;
+    padding-left: 1%;
+}
+
+header {
+    width: 91%;
+    height: 76px;
+}
+
+.head-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 73px;
+    background-color: var(--black-color);
+    padding-bottom: 3px;
+}
+
+.head-category {
+    display: flex;
+    width: 34%;
+    justify-content: space-between;
+    padding-right: 1%;
+}
+
+/* bouton nav start*/
+
+.light-button button.bt {
+    position: relative;
+    height: 35px;
+    display: flex;
+    align-items: flex-end;
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+  
+.light-button button.bt .button-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    background-color: #023045;
+    border-radius: 5px;
+    color: var(--white-color);
+    opacity: 0.9;
+    font-weight: 700;
+    transition: 300ms;
+    outline: #023045 2px solid;
+    outline-offset: 20;
+    font-size: 12px;
+}
+  
+.light-button button.bt .button-holder svg {
+    height: 50px;
+    fill: #0f0f0f;
+    transition: 300ms;
+}
+  
+.light-button button.bt .light-holder {
+    position: absolute;
+    height: 70px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.light-button button.bt .light-holder .dot {
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    z-index: 2;
+}
+  
+.light-button button.bt .light-holder .light {
+    position: absolute;
+    top: 0;
+    width: 130px;
+    height: 40px;
+    clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+    background: transparent;
+}
+  
+.light-button button.bt:hover .button-holder svg {
+    fill: var(--fivebase-color);
+}
+  
+.light-button button.bt:hover .button-holder {
+    color: #7F664A;
+    outline: #7F664A 2px solid;
+    outline-offset: 2px;
+    font-size: 12px;
+}
+  
+.light-button button.bt:hover .light-holder .light {
+    background: var(--white-color);
+    background: linear-gradient(180deg, #7F664A 0%, #7F664A 50%,#a88966 80%,#cbaa83 93%,var(--white-color) 100%);
+}
+
+/* bouton nav end */

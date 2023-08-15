@@ -1,5 +1,5 @@
 import React from 'react';
-import LogoCv from '../../datas/Images/LogoCv.png';
+import LogoCv from './LogoCv.png';
 import './Header.css'
 
 

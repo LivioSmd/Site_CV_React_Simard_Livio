@@ -64,7 +64,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../../datas/Images/web_design.jpg);
+    background-image: url(./web_design.jpg);
     background-size: cover;
     width: 100%;
 }

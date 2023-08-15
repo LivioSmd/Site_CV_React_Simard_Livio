@@ -16,20 +16,23 @@ const SectionPortfolio = () => {
                         <div className="corner-up-left"></div>
                         <div className="corner-up-right"></div>
                     </div>
-                    {
-                        JsonData.map((projet, index)  => {
-                        return <Projet 
-                            key={index} 
-                            date={projet.date} 
-                            epreuves={projet.epreuves}
-                            imagePrincipale={projet.imagePrincipale}
-                            imagesSecondaires={projet.imagesSecondaires}
-                            mission={projet.mission}
-                            outils={projet.outils}
-                            titre={projet.titre}
-                        />
-                        })
-                    }
+                    <div className='allCards'>
+                        {
+                            JsonData.map((projet, index)  => {
+                            return <Projet 
+                                key={index} 
+                                date={projet.date} 
+                                epreuves={projet.epreuves}
+                                imagePrincipale={projet.imagePrincipale}
+                                imagesSecondaires={projet.imagesSecondaires}
+                                mission={projet.mission}
+                                outils={projet.outils}
+                                titre={projet.titre}
+                                id={projet.id}
+                            />
+                            })
+                        }
+                    </div>
                     <div className="corner-bottom corner-bottom-portfolio">
                         <div className="corner-bottom-left"></div>
                         <div className="corner-bottom-right"></div>

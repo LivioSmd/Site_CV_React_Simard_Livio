@@ -7,7 +7,7 @@ const SectionPortfolio = () => {
     console.log(JsonData)
     return (
         <div>
-            <section className="sectionPortfolio" id="ancre-portfolio">
+            <section className="sectionPortfolio" id='ancre-portfolio'>
                 <div className="portfolioDiv">
                     <button className="title-btn">
                         <span className="title-word">P<span className="faulty-letter">o</span>rtfolio</span>
@@ -38,7 +38,8 @@ const SectionPortfolio = () => {
                         <div className="corner-bottom-right"></div>
                     </div>
                 </div>
-            </section>
+                <div id='ancre-contact'></div>
+            </section >
         </div>
     );
 };

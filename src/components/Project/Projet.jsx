@@ -15,7 +15,7 @@ const Projet = ({ titre, imagePrincipale, imagesSecondaires, date, mission, epre
   };
 
   return (
-    <div>
+    <div >
       <div className="projects-container" id="projectsContainer">
       <div className="card" style={{ backgroundImage: `url(${imagePrincipale})` }}>
           <div className="overlay">

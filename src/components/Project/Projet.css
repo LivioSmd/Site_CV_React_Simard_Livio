@@ -1,24 +1,4 @@
-:root {
-    --black-color: #000B20;
-    --white-color: #ffff;
-    --base-color: #7F664A;
-    --twobase-color: #7C9CA2;
-    --threebase-color: #D3BDA1;
-    --fourbase-color: #F7F7F1;
-    --fivebase-color: #F3E2C9;
-    --sixbase-color: #121828;
-    --cardbase-color: #B0D2D6;
-    --cardbaseplus-color: #70979b;
-    --form-color: #7C9CA2;
-    
-}
 
-body {
-    background-color: var(--black-color);
-    width: 1440px;
-    margin: 0;
-    overflow-x: hidden;
-}
 
 h1 {
     color: var(--white-color);
@@ -164,12 +144,6 @@ h3 {
 
 /* modale projet start */
 
-.projects-container {
-    margin-top: 9%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
-  }
   
   .project {
     cursor: pointer;
@@ -257,7 +231,7 @@ h3 {
     font-family: "Raleway", sans-serif;
     text-align: center;
     border-radius: 15px;
-    background-color: var(--threebase-color);
+    background-color: #023045;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     height: 308px;
     display: flex;

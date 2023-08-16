@@ -11,7 +11,7 @@
 
 .contact-div{
     display: flex;
-    margin-top: 8%
+    margin-top: 14%
 }
 
 .title-img-contact{
@@ -25,11 +25,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 6%;
-    height: 900px;
     background-image: url(./comp.png);
-    background-size: contain;
-    background-position: center center;
+    height: 1000px;
+    background-position: -210px -91px;
 }
 
 .form-container{
@@ -52,7 +50,7 @@
     border-radius: 25px;
     transition: .4s ease-in-out;
     width: 57%;
-    height: 480px;
+    height: 500px;
     border: #050E1B 20px solid;
 }
   

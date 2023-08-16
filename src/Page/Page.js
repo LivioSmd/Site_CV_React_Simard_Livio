@@ -46,6 +46,7 @@ const Page = () => {
             <SectionCompetences />
             <SectionPortfolio />
             <SectionContact />
+            <Footer />
         </div>
     );
 };

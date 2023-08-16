@@ -1,0 +1,21 @@
+:root {
+    --black-color: #000B20;
+    --white-color: #ffff;
+    --base-color: #7F664A;
+    --twobase-color: #7C9CA2;
+    --threebase-color: #D3BDA1;
+    --fourbase-color: #F7F7F1;
+    --fivebase-color: #F3E2C9;
+    --sixbase-color: #121828;
+    --cardbase-color: #B0D2D6;
+    --cardbaseplus-color: #70979b;
+    --form-color: #7C9CA2;
+    
+}
+
+body {
+    background-color: var(--black-color);
+    width: 1800px;
+    margin: 0;
+    overflow-x: hidden;
+}

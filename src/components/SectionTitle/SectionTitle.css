@@ -59,28 +59,28 @@ h3 {
 
 .corner-up-right {
     height: 12px;
-    width: 15px;
+    width: 1%;
     border-top: 1px solid var(--base-color);
     border-right: 1px solid var(--base-color);
 }
 
 .corner-up-left {
     height: 12px;
-    width: 15px;
+    width: 1%;
     border-top: 1px solid var(--base-color);
     border-left: 1px solid var(--base-color);
 }
 
 .corner-bottom-right {
     height: 12px;
-    width: 15px;
+    width: 1%;
     border-bottom: 1px solid var(--base-color);
     border-right: 1px solid var(--base-color);
 }
 
 .corner-bottom-left {
     height: 12px;
-    width: 15px;
+    width: 1%;
     border-bottom: 1px solid var(--base-color);
     border-left: 1px solid var(--base-color);
 }
@@ -144,6 +144,10 @@ h3 {
     background: #121828;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 8px 14px 0 #121828;
+
+    @media all and (max-width: 1400px) {
+      height: auto;
+    }
   }
   
   .card-desc:before {

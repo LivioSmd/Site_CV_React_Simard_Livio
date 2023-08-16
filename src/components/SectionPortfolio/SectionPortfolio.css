@@ -31,7 +31,11 @@ h3 {
 }
 
 .sectionPortfolio {
-    height: 1050px;
+    height: 1150px;
+
+    @media all and (max-width: 1400px) {
+        margin-bottom: 10%;
+    }
 }
 
 .portfolioDiv{
@@ -52,4 +56,8 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
+
+    @media all and (max-width: 1400px) {
+        grid-template-columns: 1fr 1fr;
+    }
 }

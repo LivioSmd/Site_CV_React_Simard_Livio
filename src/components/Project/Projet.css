@@ -237,6 +237,10 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media all and (max-width: 1400px) {
+        height: unset;
+    }
 }
 
 .titre-secondaire-modal{

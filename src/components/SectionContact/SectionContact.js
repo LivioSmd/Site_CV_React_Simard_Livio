@@ -28,8 +28,7 @@ const SectionContact = () => {
   };
 
   return (
-    <div>
-        <section className="sectionContact">
+        <section className="sectionContact" id='ancre-contact'>
             <button className="title-btn">
                 <span className="title-word">
                     C<span className="faulty-letter">o</span>ntact
@@ -71,7 +70,6 @@ const SectionContact = () => {
                 </div>
             </div>
         </section>
-    </div>
   );
 };
 

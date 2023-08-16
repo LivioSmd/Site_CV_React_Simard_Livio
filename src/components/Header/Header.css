@@ -7,6 +7,10 @@
 header {
     width: 91%;
     height: 76px;
+
+    @media all and (max-width: 1400px) {
+        width: 100%;
+    }
 }
 
 .head-infos {
@@ -19,6 +23,15 @@ header {
     height: 73px;
     background-color: var(--black-color);
     padding-bottom: 3px;
+
+    @media all and (max-width: 1400px) {
+        position: unset;
+    }
+
+    @media all and (max-width: 960px) {
+        align-items: center;
+        gap: 10%;
+    }
 }
 
 .head-category {
@@ -26,9 +39,26 @@ header {
     width: 34%;
     justify-content: space-between;
     padding-right: 1%;
+
+    @media all and (max-width: 1400px) {
+        justify-content: flex-end;
+    }
+
+    @media all and (max-width: 960px) {
+        width: 20%;
+        justify-content: unset;
+        padding-right: unset;
+        gap: 10%;
+    }
 }
 
 /* bouton nav start*/
+
+.light-button {
+    @media all and (max-width: 960px) {
+        width: 100px;
+    }
+}
 
 .light-button button.bt {
     position: relative;
@@ -39,6 +69,10 @@ header {
     background: none;
     border: none;
     cursor: pointer;
+
+    @media all and (max-width: 960px) {
+        width: 25%;
+    }
 }
   
 .light-button button.bt .button-holder {
@@ -57,12 +91,24 @@ header {
     outline: #023045 2px solid;
     outline-offset: 20;
     font-size: 12px;
+
+    @media all and (max-width: 960px) {
+        width: unset;
+    }
 }
   
 .light-button button.bt .button-holder svg {
     height: 50px;
     fill: #0f0f0f;
     transition: 300ms;
+
+    @media all and (max-width: 960px) {
+        position: unset;
+        width: 0px;
+        height: 0px;
+        border-radius: 0px;
+        z-index: unset;
+    }
 }
   
 .light-button button.bt .light-holder {
@@ -72,6 +118,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media all and (max-width: 960px) {
+        position: unset;
+        width: 0px;
+        height: 0px;
+    }
 }
   
 .light-button button.bt .light-holder .dot {
@@ -82,6 +134,14 @@ header {
     background-color: var(--white-color);
     border-radius: 10px;
     z-index: 2;
+
+    @media all and (max-width: 960px) {
+        position: unset;
+        width: 0px;
+        height: 0px;
+        border-radius: 0px;
+        z-index: unset;
+    }
 }
   
 .light-button button.bt .light-holder .light {
@@ -91,6 +151,14 @@ header {
     height: 40px;
     clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
     background: transparent;
+
+    @media all and (max-width: 960px) {
+        position: unset;
+        width: 0px;
+        height: 0px;
+        border-radius: 0px;
+        z-index: unset;
+    }
 }
   
 .light-button button.bt:hover .button-holder svg {
@@ -102,6 +170,14 @@ header {
     outline: #7F664A 2px solid;
     outline-offset: 2px;
     font-size: 12px;
+
+    @media all and (max-width: 960px) {
+        color: white;
+        outline: unset;
+        outline-offset: unset;
+        font-size: unset;
+    
+    }
 }
   
 .light-button button.bt:hover .light-holder .light {

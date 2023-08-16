@@ -5,7 +5,6 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div>
             <header>
                 <div className="head-infos">
                     <img className="LogoCv" src={LogoCv} alt="Logo du Curriculum vitae" /> 
@@ -58,7 +57,6 @@ const Header = () => {
                 </div>
                 <div id="ancre-presentation"></div>
             </header>
-        </div>
     );
 };
 

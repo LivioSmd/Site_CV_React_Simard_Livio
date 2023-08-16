@@ -6,7 +6,6 @@ import JsonData from '../../datas/data.json'
 const SectionPortfolio = () => {
     console.log(JsonData)
     return (
-        <div>
             <section className="sectionPortfolio" id='ancre-portfolio'>
                 <div className="portfolioDiv">
                     <button className="title-btn">
@@ -38,9 +37,7 @@ const SectionPortfolio = () => {
                         <div className="corner-bottom-right"></div>
                     </div>
                 </div>
-                <div id='ancre-contact'></div>
             </section >
-        </div>
     );
 };
 

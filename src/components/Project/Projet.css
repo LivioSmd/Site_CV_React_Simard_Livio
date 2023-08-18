@@ -57,6 +57,11 @@ h3 {
     box-shadow: 0 0 10px var(--fivebase-color);
     opacity: 0.9;
 
+    @media all and (max-width: 480px) {
+        width: 200px;
+        background-position: 15%;
+    }
+
 }
   
 .heading {
@@ -158,9 +163,6 @@ h3 {
   }
   
   /* Styles pour le modal */
-  /* Projet.css */
-/* Projet.css */
-/* Projet.css */
 .modal {
     position: fixed;
     top: 0;
@@ -170,7 +172,8 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999; /* Z-index élevé pour s'afficher au-dessus de tout */
+    z-index: 9999; 
+    height: 100%;
   }
   
   .modal-content {
@@ -241,10 +244,24 @@ h3 {
     @media all and (max-width: 1400px) {
         height: unset;
     }
+
+    @media all and (max-width: 480px) {
+        margin-bottom: unset;
+    }
+}
+
+.titre-desc-modale p {
+    @media all and (max-width: 480px) {
+        margin: 3% 0% 3% 0%;
+    }
 }
 
 .titre-secondaire-modal{
     font-size:16px;
+
+    @media all and (max-width: 480px) {
+        font-size: 13px;
+    }
 }
 
 .divTitle{
@@ -253,4 +270,10 @@ h3 {
 
 .img-secondaire{
     width: 100%;
+}
+
+.all-outils {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

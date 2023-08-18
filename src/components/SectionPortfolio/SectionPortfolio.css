@@ -36,6 +36,10 @@ h3 {
     @media all and (max-width: 1400px) {
         margin-bottom: 10%;
     }
+
+    @media all and (max-width: 960px) {
+        height: unset;
+    }
 }
 
 .portfolioDiv{
@@ -59,5 +63,10 @@ h3 {
 
     @media all and (max-width: 1400px) {
         grid-template-columns: 1fr 1fr;
+    }
+
+    @media all and (max-width: 960px) {
+        display: flex;
+        flex-direction: column;
     }
 }

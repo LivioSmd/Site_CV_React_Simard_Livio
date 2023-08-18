@@ -17,7 +17,7 @@ const SectionCompetences = () => {
                                 </div>
                                 <div className="flip-card-back">
                                     <p className="title">Intégration web avec HTML - CSS</p>
-                                    <p>+ responsive / animations</p>
+                                    <p className='little-text'>+ responsive / animations</p>
                                 </div>
                             </div>
                         </div>
@@ -37,7 +37,7 @@ const SectionCompetences = () => {
                                     <p className="title">React</p>
                                 </div>
                                 <div className="flip-card-back">
-                                    <p>- Application React <br />- Interface reactive <br />- Router</p>
+                                    <p className='little-text'>- Application React <br />- Interface reactive <br />- Router</p>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ const SectionCompetences = () => {
                                     <p className="title">Git/GitHub</p>
                                 </div>
                                 <div className="flip-card-back">
-                                    <p>- Versionner son projet avec Git et Github <br />- Prise d'informations d'autres Developpeurs</p>
+                                    <p className='little-text'>- Versionner son projet avec Git et Github <br />- Prise d'informations d'autres Developpeurs</p>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const SectionCompetences = () => {
                                 </div>
                                 <div className="flip-card-back">
                                     <p className="title">Développement back-end </p>
-                                    <p>- opérations CRUD <br />- Stocker des données de manière sécurisée <br />- Base de donnée <br />- Api </p>
+                                    <p className='little-text'>- opérations CRUD <br />- Stocker des données de manière sécurisée <br />- Base de donnée <br />- Api </p>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ const SectionCompetences = () => {
                                     <p className="title">Gestion de projet</p>
                                 </div>
                                 <div className="flip-card-back">
-                                    <p>- Méthodes Agile <br />- outil de gestion de projet <br />- Rédiger les spécifications techniques d'un projet <br />- Présenter la solution technique <br />- Veille technologique</p>
+                                    <p className='little-text'>- Méthodes Agile <br />- outil de gestion de projet <br />- Rédiger les spécifications techniques d'un projet <br />- Présenter la solution technique <br />- Veille technologique</p>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ const SectionCompetences = () => {
                                     <p className="title">Optimisation et debug (SEO)</p>
                                 </div>
                                 <div className="flip-card-back">
-                                    <p>- Optimiser les performances <br />- Débug avec Chrome DevTools <br />- Cahier de recette</p>
+                                    <p className='little-text'>- Optimiser les performances <br />- Débug avec Chrome DevTools <br />- Cahier de recette</p>
                                 </div>
                             </div>
                         </div>

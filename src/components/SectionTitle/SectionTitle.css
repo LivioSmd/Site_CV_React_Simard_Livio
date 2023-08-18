@@ -9,6 +9,14 @@ h1 {
     text-align: center;
     border-radius: 15px;
     box-shadow: 11px 11px 31px black;
+
+    @media all and (max-width: 960px) {
+      font-size: 55px;
+  }
+
+  @media all and (max-width: 960px) {
+    font-size: 40px;
+}
 }
 
 
@@ -28,6 +36,10 @@ h3 {
     color: white;
     margin-left: 49%;
     opacity: 0.8;
+
+    @media all and (max-width: 960px) {
+      display: none;
+  }
 }
 
 .textDescOpacity{
@@ -47,6 +59,10 @@ h3 {
     background-image: url(./web_design.jpg);
     background-size: cover;
     width: 100%;
+
+    @media all and (max-width: 960px) {
+      height: unset;
+  }
 }
 
 .title1 {
@@ -95,6 +111,10 @@ h3 {
     width: 76%;
     display: flex;
     justify-content: space-between;
+    
+    @media all and (max-width: 960px) {
+      margin-bottom: 10%;
+  }
 }
 
 /* little corner background end */
@@ -107,7 +127,15 @@ h3 {
     color: white;
     margin: 0;
     text-align: justify;
+
+    @media all and (max-width: 960px) {
+      font-size: 20px;
   }
+
+  @media all and (max-width: 960px) {
+    font-size: 17px;
+}
+}
   
   .go-corner {
     display: flex;
@@ -148,6 +176,10 @@ h3 {
     @media all and (max-width: 1400px) {
       height: auto;
     }
+
+    @media all and (max-width: 960px) {
+      margin-bottom: 10%;
+  }
   }
   
   .card-desc:before {

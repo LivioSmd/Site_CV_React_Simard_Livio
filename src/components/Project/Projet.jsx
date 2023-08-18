@@ -34,7 +34,7 @@ const Projet = ({ titre, imagePrincipale, imagesSecondaires, date, mission, epre
                     <p className="titre-secondaire-modal">Année: {date}</p>
                     <p className="titre-secondaire-modal">Mission: {mission}</p>
                     <p className="titre-secondaire-modal">Difficultés: {epreuves}</p>
-                    <p className="titre-secondaire-modal">Technologies utilisées: {outils}</p>
+                    <p className="titre-secondaire-modal all-outils">Technologies utilisées: {outils.map((outils) => (<p>{outils},</p>))}</p>
                 </div>
                 <div>
                     {imagesSecondaires.map((image, index) => (

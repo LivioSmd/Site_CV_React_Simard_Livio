@@ -46,8 +46,6 @@ header {
 
     @media all and (max-width: 960px) {
         width: 20%;
-        justify-content: unset;
-        padding-right: unset;
         gap: 10%;
     }
 }
@@ -58,6 +56,8 @@ header {
     @media all and (max-width: 960px) {
         width: 100px;
     }
+
+
 }
 
 .light-button button.bt {
@@ -94,6 +94,11 @@ header {
 
     @media all and (max-width: 960px) {
         width: unset;
+    }
+
+    @media all and (max-width: 480px) {
+        font-size: 8px;
+        height: unset;
     }
 }
   
@@ -176,7 +181,10 @@ header {
         outline: unset;
         outline-offset: unset;
         font-size: unset;
-    
+    }
+
+    @media all and (max-width: 480px) {
+        font-size: 8px;
     }
 }
   

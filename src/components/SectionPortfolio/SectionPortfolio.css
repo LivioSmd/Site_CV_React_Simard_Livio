@@ -1,35 +1,3 @@
-
-
-h1 {
-    color: var(--white-color);
-    font-weight: 700;
-    font-size: 100Px;
-    font-family: "Raleway", sans-serif;
-    backdrop-filter: blur(30px);
-    text-align: center;
-    border-radius: 15px;
-    box-shadow: 11px 11px 31px black;
-}
-
-
-h2 {
-    color: var(--sixbase-color);
-    font-weight: 400;
-    font-family: "Raleway", sans-serif;
-    font-size: 33px;
-    text-align: justify;
-}
-
-h3 {
-    font-weight: 400;
-    font-family: "Raleway", sans-serif;
-    font-size: 30px;
-    text-align: -webkit-center;
-    color: white;
-    margin-left: 49%;
-    opacity: 0.8;
-}
-
 .sectionPortfolio {
     height: 1150px;
 

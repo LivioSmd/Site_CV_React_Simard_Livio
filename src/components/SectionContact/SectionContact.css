@@ -34,6 +34,10 @@
     background-position: center 22%;
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media all and (max-width: 960px) {
+        height: unset;
+    }
 }
 
 .form-container{
@@ -60,11 +64,11 @@
     border-radius: 25px;
     transition: .4s ease-in-out;
     width: 57%;
-    height: 500px;
     border: #050E1B 20px solid;
 
     @media all and (max-width: 960px) {
         width: 100%;
+        margin-bottom: 10%;
     }
 }
   
@@ -121,6 +125,7 @@
     background-color: var(--black-color);
     color: var(--fourbase-color);
     Box-shadow: 4px 4px 11px blacK;
+    margin-bottom: 5%;
 }
 
 .field-ligne{

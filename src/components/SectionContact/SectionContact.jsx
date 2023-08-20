@@ -20,7 +20,7 @@ const SectionContact = () => {
     e.target.reset();
   };
 
-  const sendFeedback = (serviceId, templateId, variables) => {
+const sendFeedback = (serviceId, templateId, variables) => {
     emailjs
         .send(serviceId, templateId, variables, 'GEg9jOR2Mm-fAsyKT')
         .then((res) => {

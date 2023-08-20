@@ -38,7 +38,7 @@ const Projet = ({ titre, imagePrincipale, imagesSecondaires, date, mission, epre
                 </div>
                 <div>
                     {imagesSecondaires.map((image, index) => (
-                        <img key={index} src={image} alt={`Image ${index}`} className="allSecondaireImage"/>
+                        <img key={index} src={image} alt={`${index}`} className="allSecondaireImage"/>
                      ))}
                     <button className="close-modal-btn" onClick={closeModal}>
                         <FontAwesomeIcon icon={faXmark} />

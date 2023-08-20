@@ -2,12 +2,13 @@ import React from 'react';
 import './SectionContact.css';
 import emailjs from 'emailjs-com'; // Import correctement le module emailjs-com
 
+
 const SectionContact = () => {
   const onSubmit = (e) => { // Modifie Onsubmit en onSubmit et ajuste le paramètre
     e.preventDefault(); // Empêche le rechargement de la page
     alert('Merci pour votre message, il sera traité au plus vite 😀');
-    const templateId = 'Clef';
-    const serviceId = 'Clef';
+    const templateId = 'template_kbyursv';
+    const serviceId = 'service_azc2b8m';
     const data = {
       nom: e.target.nom.value,
       prenom: e.target.prenom.value,
@@ -16,15 +17,16 @@ const SectionContact = () => {
       message: e.target.votre_message.value,
     };
     sendFeedback(serviceId, templateId, data);
+    e.target.reset();
   };
 
   const sendFeedback = (serviceId, templateId, variables) => {
     emailjs
-      .send(serviceId, templateId, variables, 'Clef')
-      .then((res) => {
-        console.log('succes');
-      })
-      .catch((err) => console.error('Il y a une erreur', err)); // Affiche l'erreur dans la console
+        .send(serviceId, templateId, variables, 'GEg9jOR2Mm-fAsyKT')
+        .then((res) => {
+            console.log('succes');
+        })
+        .catch((err) => console.error('Il y a une erreur', err)); // Affiche l'erreur dans la console
   };
 
   return (

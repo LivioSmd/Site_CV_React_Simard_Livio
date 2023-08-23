@@ -4,14 +4,16 @@
 
 .bm-burger-button {
     width: 45px;
-    height: 45px;
+    height: 25px;
     position: absolute;
-    top: 16px;
+    top: 27px;
     left: 16px;
 }
 
 .bm-burger-bars {
     background-color: white;
+    height: 1.5px !important;
+    width: 80%;
 }
 
 .bm-overlay {

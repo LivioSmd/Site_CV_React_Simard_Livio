@@ -1,6 +1,18 @@
+.burger {
+    @media all and (min-width: 960px) {
+        visibility: hidden;
+        display: none;
+    }
+}
+
 .LogoCv {
     width: 87px;
     padding-left: 1%;
+
+    @media all and (max-width: 960px) {
+        position: absolute;
+        right: 0px;
+    }
 }
 
 header {
@@ -10,6 +22,9 @@ header {
     @media all and (max-width: 1400px) {
         width: 100%;
     }
+
+
+
 }
 
 .head-infos {
@@ -44,8 +59,8 @@ header {
     }
 
     @media all and (max-width: 960px) {
-        width: 20%;
-        gap: 10%;
+        visibility: hidden;
+        display: none;
     }
 }
 
@@ -193,3 +208,4 @@ header {
 }
 
 /* bouton nav end */
+

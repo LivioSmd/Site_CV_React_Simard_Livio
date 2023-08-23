@@ -3,7 +3,6 @@ import './SectionCompetences.css'
 
 const SectionCompetences = () => {
     return (
-        <div>
             <section className="sectionCompetences" id="ancre-competences">
                 <div className="competencesDiv">
                     <button className="title-btn">
@@ -85,7 +84,6 @@ const SectionCompetences = () => {
                     </div>
                 </div>
             </section>
-        </div>
     );
 };
 

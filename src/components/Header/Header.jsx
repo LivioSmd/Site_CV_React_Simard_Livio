@@ -1,7 +1,7 @@
 import React from 'react';
 import LogoCv from './LogoCv.png';
 import './Header.css'
-
+import BurgerMenu from '../BurgerMenu/BurgerMenu';
 
 const Header = () => {
     return (
@@ -54,6 +54,9 @@ const Header = () => {
                             </button>
                         </div>
                     </nav>
+                    <div className='burger'>
+                        <BurgerMenu />
+                    </div>
                 </div>
                 <div id="ancre-presentation"></div>
             </header>

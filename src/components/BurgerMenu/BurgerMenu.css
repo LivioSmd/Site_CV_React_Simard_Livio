@@ -1,0 +1,58 @@
+.Burger-div {
+    width: 100px;
+}
+
+.bm-burger-button {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.bm-burger-bars {
+    background-color: white;
+}
+
+.bm-overlay {
+    left: 0px;
+    top: 0px;
+}
+
+.bm-menu-wrap {
+    left: 0px;
+    background-color: var(--black-color);
+    top: 0px;
+}
+
+.bm-item-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bm-item {
+    border: 1px solid grey;
+    padding: 8% 100% 8% 100%;
+    margin: 0;
+    background-color: unset;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#btn-nav-contact-burger {
+    border-bottom: 3px solid grey;
+}
+
+.test { 
+    color: red;
+}
+
+.Menu-text{
+    color: grey;
+}
+
+nav button {
+    cursor: pointer;
+}

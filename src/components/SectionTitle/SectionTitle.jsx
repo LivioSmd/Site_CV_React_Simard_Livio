@@ -3,7 +3,6 @@ import './SectionTitle.css'
 
 const SectionTitle = () => {
     return (
-        <div>
             <section className="sectionTitle">
                 <div className="corner-top">
                     <div className="corner-up-left"></div>
@@ -25,7 +24,6 @@ const SectionTitle = () => {
                     <div className="corner-bottom-right"></div>
                 </div>
             </section>
-        </div>
     );
 };
 

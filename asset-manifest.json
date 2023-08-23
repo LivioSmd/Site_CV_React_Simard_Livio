@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Site_CV_React_Simard_Livio/static/css/main.b3648eb8.css",
+    "main.css": "/Site_CV_React_Simard_Livio/static/css/main.58807f2b.css",
     "main.js": "/Site_CV_React_Simard_Livio/static/js/main.46d03ff2.js",
     "static/js/787.958eb1c8.chunk.js": "/Site_CV_React_Simard_Livio/static/js/787.958eb1c8.chunk.js",
     "static/media/comp.png": "/Site_CV_React_Simard_Livio/static/media/comp.074fbae079022759a6c6.png",
     "static/media/web_design.jpg": "/Site_CV_React_Simard_Livio/static/media/web_design.b746214c525700523ff1.jpg",
     "static/media/LogoCv.png": "/Site_CV_React_Simard_Livio/static/media/LogoCv.4dd618f3ca7d9d21915b.png",
     "index.html": "/Site_CV_React_Simard_Livio/index.html",
-    "main.b3648eb8.css.map": "/Site_CV_React_Simard_Livio/static/css/main.b3648eb8.css.map",
+    "main.58807f2b.css.map": "/Site_CV_React_Simard_Livio/static/css/main.58807f2b.css.map",
     "main.46d03ff2.js.map": "/Site_CV_React_Simard_Livio/static/js/main.46d03ff2.js.map",
     "787.958eb1c8.chunk.js.map": "/Site_CV_React_Simard_Livio/static/js/787.958eb1c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3648eb8.css",
+    "static/css/main.58807f2b.css",
     "static/js/main.46d03ff2.js"
   ]
 }

@@ -81,6 +81,36 @@ const SectionCompetences = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="flip-card">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                    <p className="title"> Python</p>
+                                </div>
+                                <div className="flip-card-back">
+                                    <p className='little-text'>- Configurer un environnement Python <br />- Code Python robuste (PEP 8) <br /> Programmation orientée objet pour développer un programme Python</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flip-card">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                    <p className="title"> Python <br />& Process ETL <br /> & Model MVC <br />& Scraping</p>
+                                </div>
+                                <div className="flip-card-back">
+                                    <p className='little-text'>- Gérer les données avec Python à l'aide du processus ETL (Extraire, Transformer et Charger) <br />- Structurer le code d'un programme Python en utilisant un design pattern MVC (Models, Views, Controllers)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flip-card">
+                            <div className="flip-card-inner">
+                                <div className="flip-card-front">
+                                    <p className="title"> Python <br />& Algorithmes<br />& Big O</p>
+                                </div>
+                                <div className="flip-card-back">
+                                    <p className='little-text'>- Probleme sac à dos<br />- Algorythme de brute force<br />- Algorythme de glouton<br />- Algorythme de programmation dynamique<br />-  notation Big O</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

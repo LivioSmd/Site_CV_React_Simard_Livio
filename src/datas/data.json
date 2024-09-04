@@ -109,5 +109,41 @@
             "MongoDB",
             "API"
         ]
+    },
+    {
+        "titre": "Club d'échecs local",
+        "imagePrincipale": "./Images/club_echecs_local/profile.png",
+        "imagesSecondaires": [
+            "./Images/club_echecs_local/1.jpeg",
+            "./Images/club_echecs_local/2.jpeg"
+        ],
+        "date" : "2024",
+        "mission": "Un outil qui permette de gérer les tournois d'échecs pour aider le club local, et qui fonctionne hors ligne.",
+        "epreuves": "Project totalement hors ligne, contraite choix des matches et des paires",
+        "outils": [
+            "MVC",
+            "Pyhton",
+            "Hors ligne"
+        ]
+    },
+    {
+        "titre": " AlgoInvest&Trade",
+        "imagePrincipale": "./Images/AlgoInvest-Trade/profile.png",
+        "imagesSecondaires": [
+            "./Images/AlgoInvest-Trade/1.png",
+            "./Images/AlgoInvest-Trade/2.png",
+            "./Images/AlgoInvest-Trade/3.png"
+        ],
+        "date" : "2024",
+        "mission": "Une société financière spécialisée dans l'investissement. La société cherche à optimiser ses stratégies d'investissement à l'aide d'algorithmes, afin de dégager davantage de bénéfices pour ses clients.",
+        "epreuves": "Utilisations des Alogrithme Python, et de la notion du Big O pour calculer l'efficacité",
+        "outils": [
+            "Python",
+            "Algorithme",
+            "Big 0",
+            "Programmation dynamique",
+            "Greedy Algo",
+            "Brute force Algo"
+        ]
     }
 ]
